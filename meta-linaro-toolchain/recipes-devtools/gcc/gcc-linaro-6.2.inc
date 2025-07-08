@@ -25,11 +25,13 @@ LIC_FILES_CHKSUM = "\
 
 
 #BASEURI ?= "${GNU_MIRROR}/gcc/gcc-${PV}/gcc-${PV}.tar.bz2"
-SRCREV = "6d3168e06d5d002250d1c001538d0bf3ac499489"
-BASEURI ?= "git://git.linaro.org/toolchain/gcc.git;protocol=https;branch=linaro-local/releases/linaro-${BASEPV}-${RELEASE}"
+#SRCREV = "6d3168e06d5d002250d1c001538d0bf3ac499489"
+#BASEURI ?= "git://git.linaro.org/toolchain/gcc.git;protocol=https;branch=linaro-local/releases/linaro-${BASEPV}-${RELEASE}"
 #BASEURI ?= "git://github.com/gcc-mirror/gcc;branch=gcc-6-branch;protocol=git"
 #BASEURI ?= "ftp://sourceware.org/pub/gcc/snapshots/6.2.0-RC-20160815/gcc-6.2.0-RC-20160815.tar.bz2"
-
+SRC_URI[md5sum] = "a304fcc009333b9594d8790940656edd"
+SRC_URI[sha256sum] = "7a03f0134ca30f1a74d43a93a5ae81a9ff3f1ecf440106179778ab52b63fe972"
+BASEURI ?= "https://releases.linaro.org/components/toolchain/gcc-linaro/6.2-2016.11/gcc-linaro-6.2-2016.11.tar.xz"
 
 SRC_URI = "\
            ${BASEURI} \
