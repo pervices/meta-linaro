@@ -88,7 +88,7 @@ BACKPORTS = "\
            file://ubsan-fix-check-empty-string.patch \
 "
 
-S = "${TMPDIR}/work-shared/gcc-${PV}-${PR}/git"
+S = "${TMPDIR}/work-shared/gcc-${PV}-${PR}/gcc-linaro-6.2-2016.11"
 B = "${WORKDIR}/gcc-${PV}-${RELEASE}/build.${HOST_SYS}.${TARGET_SYS}"
 
 # Language Overrides
