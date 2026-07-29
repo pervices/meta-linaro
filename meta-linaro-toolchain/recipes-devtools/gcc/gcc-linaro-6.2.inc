@@ -31,7 +31,7 @@ LIC_FILES_CHKSUM = "\
 #BASEURI ?= "ftp://sourceware.org/pub/gcc/snapshots/6.2.0-RC-20160815/gcc-6.2.0-RC-20160815.tar.bz2"
 SRC_URI[md5sum] = "a304fcc009333b9594d8790940656edd"
 SRC_URI[sha256sum] = "7a03f0134ca30f1a74d43a93a5ae81a9ff3f1ecf440106179778ab52b63fe972"
-BASEURI ?= "https://releases.linaro.org/components/toolchain/gcc-linaro/6.2-2016.11/gcc-linaro-6.2-2016.11.tar.xz"
+BASEURI ?= "https://developer.arm.com/-/cdn-downloads/permalink/legacy-linaro-gnu-toolchains/6.2-2016.11/gcc-linaro-6.2-2016.11.tar.xz"
 
 SRC_URI = "\
            ${BASEURI} \
